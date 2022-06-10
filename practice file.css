@@ -1,0 +1,41 @@
+.div {
+  background-color: blueviolet;
+  height: 500px;
+  width: 500px;
+}
+.main {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  background-color: rgb(72, 172, 206);
+  height: 40px;
+  width: 400px;
+  padding: 20px 10px;
+  font-weight: 1000;
+  font-size: 30px;
+  color: white;
+}
+.info {
+  padding: 10px 50px;
+}
+.info input {
+  background-color: lightgray;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 200px;
+}
+.button {
+  padding: 10px 100px;
+}
+.button button {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(72, 172, 206);
+}

@@ -1,0 +1,85 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: rgb(197, 115, 197); */
+  padding: 10px;
+  position: relative;
+  z-index: 900;
+}
+.title {
+  width: 100px;
+}
+.images {
+  position: absolute;
+  top: 0;
+  background-image: url("./images/houcine-ncib-B4TjXnI0Y2c-unsplash.jpg");
+  height: 850px;
+  width: 100%;
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.text {
+  background-color: red;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  z-index: 900;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(197, 115, 197);
+    padding: 20px;
+    height: 500px;
+    width: fit-content;
+  }
+  .title {
+    width: 100px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(197, 115, 197);
+    padding: 20px;
+    height: 800px;
+    position: fixed;
+    width: fit-content;
+  }
+  .title {
+    width: 200px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .images {
+    /* position: relative; */
+    /* z-index: 900; */
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(197, 115, 197);
+    padding: 20px;
+    height: 1000px;
+    width: fit-content;
+  }
+  .title {
+    width: 200px;
+    font-size: 25px;
+    margin: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.main{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.div1{
+    background-color: red;
+
+}
+.div2{
+    background-color: blue;
+}
+.info1{
+    display: flex;
+}
+.class{
+    
+    display: flex grid;
+    grid-template-columns: 50% 50%;
+}
+.name{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

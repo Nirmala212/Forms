@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./firstproject.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="form-control">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" />
+      </div>
+      <div class="form-control">
+        <div>
+          <label>Male:</label>
+          <input type="radio" />
+
+          <label>Female:</label>
+          <input type="radio" placeholder="Enter your name" />
+        </div>
+        <div class="form-control">
+          <label>Password:</label>
+          <input type="password" placeholder="Enter your password" />
+        </div>
+        <div class="form-control">
+          <label for="photo" style="display: flex">
+            <div>photo:</div>
+
+            <div style="height: 200px; width: 200px; background: lightgray">
+              one
+            </div>
+          </label>
+          <input id="photo" type="file" style="display: none" />
+        </div>
+        <div class="form-control">
+          <label>Fav:</label>
+          <select>
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+            <option>Four</option>
+            <option>Five</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <button>submit</button>
+          <input type="button" value="cancel" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

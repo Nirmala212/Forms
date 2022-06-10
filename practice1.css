@@ -1,0 +1,22 @@
+body {
+  background-color: brown;
+}
+/* Element selector */
+p {
+  border: 2px solid red;
+}
+/* Id selector */
+#firstpara {
+  color: orange;
+}
+/* class selector */
+.secondpara {
+  color: aqua;
+  background-color: yellow;
+}
+/* Grouping selector */
+footer,
+span {
+  background-color: purple;
+}
+

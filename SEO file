@@ -1,0 +1,4 @@
+# robot.txt file
+user-agent: *
+Allow: /
+Disallow: /404

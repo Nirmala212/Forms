@@ -1,0 +1,188 @@
+/* .main{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 50% 50%;
+} */
+
+/* .main{
+ background-color: red;
+ display: flex;
+}
+.form{
+    flex:50%;
+background-color: yellow;
+}
+.divtwo{
+    flex: 50%;
+    background-color: green;
+} */
+.main{
+    width: 70%; 
+    margin: 0px auto;
+    background-color: yellow;
+    display: grid;
+    box-shadow: 1px 1px 10px lightgray;
+    grid-template-columns: 50% 50%;
+}
+.divone{
+    background-color: rgb(50, 189, 157);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.divtwo{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 10px;
+}
+.info{
+    background-color:rgb(50, 189, 157);
+    width: 90%;
+    margin: 40px auto;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    padding: 28px 10px;
+}
+.info1{
+    font-size: large;
+    padding: 20px;
+}
+
+.button{
+   border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    color: lightgray;
+    padding: 6px 22px;
+} 
+.info3{
+    font-size: x-large;
+    margin: 10px;
+
+}
+.info4{
+    font-size:large;
+    margin: 20px 0px;
+    }
+.inputbox{
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 370px;
+    
+
+}
+.inputbox input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+.btn1{
+border-radius: 20px;
+background-color:rgb(50, 189, 157);
+border: 3px solid azure;
+padding: 6px 32px;
+font-size: 16px;
+color: azure;
+}
+.figure{
+    display: flex;
+}
+.figure img{
+    height: 30px;
+    width: 30px;
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .main{
+        width: 70%; 
+        display: grid;
+        margin-bottom: 10px;
+        grid-template-columns:auto;
+        background-color: red;
+    }
+    .divtwo{
+        padding: 30px 10px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .main{
+        width: 70%; 
+        display: grid;
+        margin-bottom: 10px;
+        grid-template-columns:auto;
+        background-color: red;
+    }
+    .divtwo{
+        padding: 30px 10px;
+    }
+    .inputbox{
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 300px;
+        
+    
+    }
+}
+@media(min-width:320px)and (max-width:480px){
+    .main{
+        width: 80%; 
+        display: grid;
+        margin-bottom: 10px;
+        grid-template-columns:auto;
+        background-color: red;
+    } 
+    .divtwo{
+        padding: 10px 5px;
+    }
+    .inputbox{
+        height: 25px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 200px;
+        
+    
+    }
+    .info1{
+        font-size: small;
+        padding: 10px;
+    }
+    .info4{
+        font-size:small;
+        margin: 10px 0px;
+        }
+}
+@media(min-width:1025px)and (max-width:1200px){
+    .main{
+        width: 80%; 
+        display: grid;
+        margin-bottom: 10px;
+        grid-template-columns:auto;
+        background-color: red;
+        height: 1200px;
+        width: 1025px;
+    } 
+    
+    .inputbox{
+        height: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px; 
+        width: 350px;
+        }
+        .info1{
+            font-size: medium;
+            padding: 10px;
+        }
+        .info4{
+            font-size:medium;
+            margin: 5px 0px;
+            }
+}
